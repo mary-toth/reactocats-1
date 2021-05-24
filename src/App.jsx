@@ -2,90 +2,16 @@
 
 import React, { Component } from 'react'
 import CatHeader from './components/CatHeader'
+import OctoCat from './components/OctoCat'
 
 export class App extends Component {
   render() {
     return (
       <>
-        <header>
-          <nav>
-            <ul className="header-1">
-              <li>
-                <a href="#">
-                  <img
-                    className="headerimg"
-                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-                    width="45"
-                    height="45"
-                    alt="GithubLogo"
-                  />
-                </a>
-              </li>
-              <li>
-                <a className="octodex" href="#">
-                  Octodex
-                </a>
-              </li>
-              <li>
-                <a className="home" href="#">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="https://octodex.github.com/faq/">FAQ</a>
-              </li>
-            </ul>
-          </nav>
-          <nav>
-            <ul className="header-2">
-              <li>
-                <a
-                  className="twitter-link"
-                  href="https://twitter.com/githubdesign"
-                >
-                  Follow us on Twitter
-                </a>
-              </li>
-              <li>
-                <a className="github-link" href="https://github.com/">
-                  Back to GitHub.com
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-
+        <CatHeader />
         <main>
           <section>
-            <article>
-              <a href="https://octodex.github.com//yogitocat/">
-                <img
-                  className="cat"
-                  src="https://octodex.github.com//images/yogitocat.png"
-                  width="400"
-                  height="400"
-                  alt="Yogitocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #153:
-                  <a href="https://octodex.github.com//yogitocat/">
-                    <strong>Yogitocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/johncreek">
-                    <img
-                      src="https://github.com/johncreek.png"
-                      width="24px"
-                      height="24px"
-                      alt="johncreek"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
+            <OctoCat name={'Vinyltocat'} />
 
             <article>
               <a href="https://octodex.github.com//vinyltocat/">
