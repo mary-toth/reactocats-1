@@ -55,66 +55,42 @@ export class App extends Component {
               designerAlt={'jeejkang'}
             />
 
-            <article>
-              <a href="https://octodex.github.com//daftpunktocat-thomas/">
-                <img
-                  className="cat"
-                  src="https://octodex.github.com//images/daftpunktocat-thomas.gif"
-                  width="400"
-                  height="400"
-                  alt="Mountietocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #100:
-                  <a href="https://octodex.github.com//daftpunktocat-thomas/">
-                    <strong>Daftpunktocat-Thomas</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/jeejkang">
-                    <img
-                      src="https://github.com/jeejkang.png"
-                      width="24px"
-                      height="24px"
-                      alt="jeejkang"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
-            <article>
-              <a href="https://octodex.github.com//Robotocat/">
-                <img
-                  className="cat"
-                  src="https://octodex.github.com//images/Robotocat.png"
-                  width="400"
-                  height="400"
-                  alt="Robotocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #92:
-                  <a href="https://octodex.github.com//Robotocat/">
-                    <strong>Robotocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/jeejkang">
-                    <img
-                      src="https://github.com/jeejkang.png"
-                      width="24px"
-                      height="24px"
-                      alt="Octonaut"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
+            <OctoCat
+              name={'Daftpunktocat-Thomas'}
+              imgLink={'https://octodex.github.com//daftpunktocat-thomas/'}
+              img={
+                'https://octodex.github.com//images/daftpunktocat-thomas.gif'
+              }
+              numberOfCat={'#100:'}
+              designerLink={'https://github.com/jeejkang'}
+              designer={'https://github.com/jeejkang.png'}
+              alt={'Daftpunktocat-Thomas'}
+              designerAlt={'jeejkang'}
+            />
 
-            <article>
+            <OctoCat
+              name={'Robotocat'}
+              imgLink={'https://octodex.github.com//Robotocat/'}
+              img={'https://octodex.github.com//images/Robotocat.png'}
+              numberOfCat={'#92:'}
+              designerLink={'https://github.com/jeejkang'}
+              designer={'https://github.com/jeejkang.png'}
+              alt={'Daftpunktocat-Thomas'}
+              designerAlt={'jeejkang'}
+            />
+
+            <OctoCat
+              name={'Spocktocat'}
+              imgLink={'https://octodex.github.com//spocktocat/'}
+              img={'https://octodex.github.com//images/spocktocat.png'}
+              numberOfCat={'#21:'}
+              designerLink={'https://github.com/cameronmcefee'}
+              designer={'https://github.com/cameronmcefee.png'}
+              alt={'Spoctocat'}
+              designerAlt={'cameronmcfee'}
+            />
+
+            {/* <article>
               <a href="https://octodex.github.com//spocktocat/">
                 <img
                   className="cat"
@@ -142,7 +118,7 @@ export class App extends Component {
                   </a>
                 </li>
               </ul>
-            </article>
+            </article> */}
           </section>
         </main>
       </>
