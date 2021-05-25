@@ -89,36 +89,6 @@ export class App extends Component {
               alt={'Spoctocat'}
               designerAlt={'cameronmcfee'}
             />
-
-            {/* <article>
-              <a href="https://octodex.github.com//spocktocat/">
-                <img
-                  className="cat"
-                  src="https://octodex.github.com//images/spocktocat.png"
-                  width="400"
-                  height="400"
-                  alt="Spoctocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #21:
-                  <a href="https://octodex.github.com//spocktocat/">
-                    <strong>Spoctocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/cameronmcefee">
-                    <img
-                      src="https://github.com/cameronmcefee.png"
-                      width="24px"
-                      height="24px"
-                      alt="cameronmcefee"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article> */}
           </section>
         </main>
       </>
