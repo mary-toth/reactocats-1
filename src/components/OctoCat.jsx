@@ -4,29 +4,29 @@ class OctoCat extends Component {
   render() {
     return (
       <article>
-        <a href="https://octodex.github.com//yogitocat/">
+        <a href={this.props.imgLink}>
           <img
             className="cat"
-            src="https://octodex.github.com//images/yogitocat.png"
+            src={this.props.img}
             width="400"
             height="400"
-            alt="Yogitocat"
+            alt={this.props.alt}
           />
         </a>
         <ul>
           <li>
-            #153:
-            <a href="https://octodex.github.com//yogitocat/">
+            {this.props.numberOfCat}
+            <a href={this.props.imgLink}>
               <strong>{this.props.name}</strong>
             </a>
           </li>
           <li>
-            <a href="https://github.com/johncreek">
+            <a href={this.props.designerLink}>
               <img
-                src="https://github.com/johncreek.png"
+                src={this.props.designer}
                 width="24px"
                 height="24px"
-                alt="johncreek"
+                alt={this.props.designerAlt}
               />
             </a>
           </li>
